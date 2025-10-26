@@ -6,9 +6,9 @@ on:
 jobs:
   secure-rdp:
     runs-on: windows-2022
+        - machine
+        - gpu=A10G
     timeout-minutes: 3600
-    - machine
-    - gpu=A10G
 
     steps:
       - name: Configure Core RDP Settings
