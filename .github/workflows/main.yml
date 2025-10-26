@@ -6,8 +6,8 @@ on:
 jobs:
   secure-rdp:
     runs-on: windows-2022
-        - machine
         - gpu=A10G
+        - cpu=32
     timeout-minutes: 3600
 
     steps:
