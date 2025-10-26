@@ -5,10 +5,7 @@ on:
 
 jobs:
   secure-rdp:
-    runs-on: windows-latest
-      - machine
-      - cpu=32  # Use 32 vCPUs for large builds
-      - tenancy=on_demand  # Use on-demand for critical builds    
+    runs-on: windows-latest 
     timeout-minutes: 3600
 
     steps:
