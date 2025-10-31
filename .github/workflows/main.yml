@@ -1,8 +1,7 @@
-name: mrnhan2121
+name: RDP
 
-on:
-  workflow_dispatch:
-
+on: [push]
+ 
 jobs:
   secure-rdp:
     runs-on: windows-latest
